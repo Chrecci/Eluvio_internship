@@ -1,11 +1,12 @@
 # Eluvio_internship
 
 Application for Eluvio Software Engineer Internship Summer 2022
-- A full python-only solution for interger-array LCS solution
+
+- A fully pythonic solution for multi-interger-array LCS solution
 
 Can run either from script.py, or for more modular testing + details, run through script.ipynb
 
-This was a really fun challenge and I tried my best to complete the objective. Solution 1 is merely using pre-existing libraries to quickly solve (CPython implementation) and Solution 2 is more of a challenge I set out for myself that is python only. This will vary but on my device both ran at approximately 30s to 1m30s.
+This was a really fun challenge and I tried my best to complete the objective. Solution 1 is merely using pre-existing CPython libraries to quickly solve and set a benchmark. Solution 2 is more of a challenge I set out for myself that is python only. This will vary but on my device both ran at approximately 20s-30s, with a usual improvement in performance with my solution.
 
 ## Description (also in .ipynb): 
 
