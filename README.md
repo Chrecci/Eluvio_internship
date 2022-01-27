@@ -2,7 +2,7 @@
 
 Application for Eluvio Software Engineer Internship Summer 2022
 
-- A fully pythonic solution for multi-interger-array LCS solution
+- A fully pythonic solution for multi-interger-array LCS solution through suffix arrays
 
 Can run either from script.py, or for more modular testing + details, run through script.ipynb
 
