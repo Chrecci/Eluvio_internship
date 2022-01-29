@@ -6,7 +6,7 @@ Application for Eluvio Software Engineer Internship Summer 2022
 
 Can run either from script.py, or for more modular testing + details, run through script.ipynb
 
-This was a really fun challenge and I tried my best to complete the objective. Solution 1 is merely using pre-existing CPython libraries to quickly solve and set a benchmark. Solution 2 is more of a challenge I set out for myself that is python only. This will vary but on my device both ran at approximately 20s-30s, with a usual improvement in performance with my solution.
+This was a really fun challenge and I tried my best to complete the objective. Solution 1 is merely using pre-existing CPython library (difflib) to quickly solve and set a benchmark. Solution 2 is more of a challenge I set out for myself. This will vary but on my device both ran at approximately 20s-30s, with a usual improvement in performance with my solution.
 
 ## Description (also in .ipynb): 
 
@@ -55,7 +55,7 @@ for i in matrix[164][1]:
 - But even better, since my data structure knows what's the last substring for each group, and now they're all sorted, I can work backwards
 - Thus, if the longest subarray is stored, I don't have to check many of the (usually) smaller subarrays ahead of it. Granted they're smaller than our max length already, it would just be redundant
 - In short, the final game plan is to continually improve stored maximum value, and as it improves, sorts and searches get easier and easier (by weeding out unecessary candidates)
-- I suppose this solution isn't ideal. It notably sacrifices sort time for an optimal search time. However, it gives a respectable solution that doesn't use Cython or CPython, and in fact, beating out CPython solution. (And to be fair, the brute force python approach here wouldn't even run)
+- I suppose this solution isn't ideal. It notably sacrifices sort time for an optimal search time. However, it gives a respectable solution that doesn't use Cython or default CPython packages, and in fact, beating out CPython's difflib solution. (And to be fair, the brute force python approach here wouldn't even run)
 - The next benefit is storage size with numpy. Each byte is a small 8-bit number, which cuts memory drastically. Something you'd have to find a workaround for even in C++
     - This is, of course assuming we're not running in the worst case scenario, where we can never weed out smaller substrings
     - However, the worse case is extremely rare. Especially since we're re-organizing separate strings, and re-combining them into separate data-structure, odds of worst case is very rare
