@@ -1,6 +1,6 @@
-# Eluvio_internship
+# Solving Longest Common Substring Problem through Suffix Arrays
 
-Application for Eluvio Software Engineer Internship Summer 2022
+Part of application for Eluvio Software Engineer Internship Summer 2022
 
 - A fully pythonic solution for multi-interger-array LCS solution through suffix arrays
 
